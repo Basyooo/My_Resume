@@ -1,75 +1,60 @@
 <!DOCTYPE html>
 <html>
-    <style>
-        body{background-color:#34084e}
-    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jacquarda+Bastarda+9&family=Micro+5&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link href="./style.css" rel="stylesheet"/>
+
     <head>
-        <h1>My Resume</h1>
-        <hr/>
+        <div id="title">
+            <h1>My Resume</h1>
+        </div>
     </head>
 
     <body>
-        <h2>Mohamad Basyoni</h2>
-        <img src="./Images/Guts.jpg" height="200" width="200"/>
-        <br/>
-        <h4>Hello there! This is my portfolio for now. Everything<br/> you (probably a business man or something)<br/> need to know about me :)</h4>
-        <hr/>
-        <br/>
-        <h2>
-            <ul type="square">
-                <li>
-                    Education
-                </li>
-            </ul>
-        </h2>
-        <ul>
-            <li>
-                <h3>School</h3>
-                <h4>went to E.C.S (Educational Creativity School).</h4>
-            </li>
-            <li>
-                <h3>University</h3>
-                <h4>Currently studying Software Engineering at Amman Arab University</h4>
-            </li>
-        </ul>
-        <hr/>
-        <br/>
-        <h2>
-            <ul type="square">
-                <li>
-                    Courses
-                </li>
-            </ul>
-        </h2>
-        <ul>
-            <li>
-                <h3>Web development course. (In process)</h3>
-            </li>
-            <li>
-                <h3>Java course. (Pending)</h3>
-            </li>
-            <li>
-                <h3>Digital marketing Course. (Pending)</h3>
-            </li>
-        </ul>
-        <hr/>
-        <br/>
-        <h2>
-            <ul type="square">
-                <li>
-                    Other
-                </li>
-            </ul>
-        </h2>
-        <ul>
-            <li><a href="./Other/contact.html"><h3>Contact</h3></a></li>
-        </ul>
-        <hr/>
-        <br/>
-        
+        <div id="bio">
+            <h2>Mohamad Basyoni</h2>
+            <img src="./Images/Guts.jpg" height="200" width="200" id="pfp"/>
+            <br/>
+            <h4>Hello there! This is my portfolio for now. Everything<br/> you (probably a business man or something) need to know about me :)</h4>
+        </div>
+ 
+        <div id="edu">
+            <div id="window1" class="child">
+                <div class="secondary-title">
+                    <h2 class="third-title">Education</h2>
+                </div>
+                <div>
+                    <h3>School</h3>
+                    <h5>went to E.C.S (Educational Creativity School).</h4>
+                    <h3>University</h3>
+                    <h5>Currently studying Software Engineering at Amman Arab University</h4>
+                    
+                </div>
+                
+            </div>
+        </div>
+         
+        <div id="course" class="child">
+                <div class="secondary-title">
+                    <h2>Courses</h2>
+                </div>
+                <div class="third-title">
+                    <h4>Web development course. (In process)</h3>
+                    <h4>Java course. (Pending)</h3>
+                    <h4>Digital marketing Course. (Pending)</h3>
+                </div>
+            
+        </div>
+         
+        <div id="other">
+            <a href="./Other/contact.html" id="link"><h2>Contact me!</h2></a>
+        </div>
         
     </body>
     <footer>
-        <h4>© Mohamad Basyoni. All rights reserved.</h4>
+        <div>
+            <h4>© Mohamad Basyoni. All rights reserved.</h4>
+        </div>
     </footer>
 </html>

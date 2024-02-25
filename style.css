@@ -1,0 +1,65 @@
+body {
+     background-color: rgb(32, 32, 32);
+ }
+ 
+ div {
+     text-align: center;
+     color: rgb(0, 0, 0);
+     font-family: "Open Sans", sans-serif;
+ }
+ 
+ #pfp {
+     width: 20%;
+     height: 20%;
+     border: 5px solid rgb(0, 0, 0);
+     box-shadow: 1pt 1pt 1pt 1pt rgba(255, 255, 255, 0.411);
+ }
+ 
+ #title {
+     border: solid rgb(0, 0, 0);
+     border-width: 5px 5px 1px 5px;
+     background-color: #aa0000;
+     width: 56%;
+     margin-left: 22%;
+ }
+ 
+ #bio {
+     border: 3px solid rgb(0, 0, 0);
+     background-color: #810000;
+     width: 75%;
+     margin-left: 12.5%;
+ }
+ 
+ #edu {
+     border: 3px solid rgb(0, 0, 0);
+     margin: 0px;
+     background-color: #750000;
+     width: 86%;
+     margin-left: 7%;
+ }
+ 
+ #course {
+     border: 3px solid rgb(0, 0, 0);
+     margin: 0px;
+     width: 90%;
+     margin-left: 5%;
+     background-color: #640000;
+ }
+ 
+ #other {
+     border: 3px solid rgb(0, 0, 0);
+     width:94%;
+     margin-left:3%;
+     background-color: #550000;
+     #link{color: rgb(0, 65, 185); font: 1em sans-serif;}
+ }
+
+ .secondary-title {
+     width: 20%;
+     margin-left: 40%;
+     margin-top: 1em;
+     border: 3px solid black;
+     border-width: 50%;
+ }
+
+ 

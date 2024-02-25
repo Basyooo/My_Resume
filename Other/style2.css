@@ -1,0 +1,46 @@
+body {
+    background-color: rgb(32, 32, 32);
+    text-align: center;
+}
+
+div {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: "Open Sans", sans-serif;
+}
+
+#title {
+    border: 3px solid rgb(0, 0, 0);
+    background-color: #aa0000;
+    width: 30%;
+    margin-left: 35%;
+    margin-bottom: 1rem;
+}
+
+#email{
+    border: 3px solid rgb(0, 0, 0);
+    border-width: 3px 3px 1px 3px;
+    background-color: #810000;
+    width: 50%;
+    margin-left: 25%;
+}
+
+
+
+#phone {
+    border: 3px solid rgb(0, 0, 0);
+    background-color: #630000;
+    width: 50%;
+    margin-left: 25%;
+}
+
+#button{
+    border:1px solid rgb(0, 0, 0);
+    width:15%;
+    margin-left:42.5%;
+    margin-top:10%;
+    background-color:rgb(71, 71, 71);
+    #link{
+        color:black;
+        }
+}
